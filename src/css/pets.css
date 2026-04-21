@@ -1,0 +1,136 @@
+*{
+    font-family: "Ubuntu" , sans-serif;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background: #ededed;
+    color: black;
+}
+
+header{
+    width: auto;
+    height: 100px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 1rem 0 1rem;
+    flex-direction: row-reverse;
+    margin: 0 0 2rem 0;
+}
+
+
+.logo{
+    display: flex;
+    gap: 2rem;
+    align-items: start;
+    font-size: 3rem;
+}
+
+.logo a{
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 0.05rem;
+    color: black;
+    border: 0;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff;
+}
+
+
+nav a:hover{
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff;
+    transform: scale(2.5);
+    transition: 0.3s;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+    margin-top: 15%;
+    height: 150%;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.images img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.images img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.logo {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.pet{
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 15px #ff00ff;
+    transition: 0.5s;
+    color: #ededed;
+    border-radius: 50px;
+}
+
+@media(min-width: 576px){
+    .images{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 12rem;
+        justify-items: center;
+        align-items: center;
+        padding-top: 100px;
+    }
+
+
+    .pet{
+        display: flex;
+        height: 150%;
+        width: 60%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 15px #ff00ff;
+        transition: 0.5s;
+        color: #ededed;
+        border-radius: 50px;
+    
+    }
+
+    .pet img{
+        width: 200px;
+        height: 200px;
+    }
+}
