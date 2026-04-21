@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +11,6 @@ body {
     background: #f5f5f5;
 }
 
-/* HEADER */
 header {
     background: linear-gradient(90deg, #49bad9, #06e8cd);
     color: white;
@@ -37,8 +35,6 @@ nav{
     justify-content: space-around;
 }
 
-
-/* HERO */
 .hero {
     background: url('/public/img/Portada-hogar.webp') center/cover no-repeat;
     background-size: auto 100%;
@@ -57,14 +53,12 @@ nav{
     cursor: pointer;
 }
 
-/* PETS */
 .pets {
     padding: 40px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: green;
 }
 
 
@@ -82,12 +76,10 @@ nav{
     flex-direction: column;
     gap: 70px;
     margin-top: 20px;
-    background-color: yellow;
 }
 
 .card {
     font-size: 1.8rem;
-    background: rgb(193, 193, 193);
     display: flex;
     padding-top: 25px;
     flex-direction: column;
@@ -97,20 +89,38 @@ nav{
     border-radius: 10px;
     width: 600px;
     height: 600px;
-    background-color: #330867;
 }
 
-.card img {
+.img{
+    background-color: #ededed;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #49bad9;
     width: 90%;
     height: 80%;
-    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
-/* FOOTER */
-footer {
+.img img{
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.info{
+    font-size: 2rem;
+    background: linear-gradient(to right, #49bad9, #330867);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer{
     background: #333;
     color: white;
     text-align: center;
     padding: 15px;
     margin-top: 20px;
+    height: 100px;
+    font-size: 2rem;
 }
