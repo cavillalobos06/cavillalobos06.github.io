@@ -1,4 +1,4 @@
-.home{
+#home{
     height: auto;
     width: 100%;
     padding: 5rem 9% 5rem;
@@ -44,40 +44,6 @@ span{
     background-color: #00bbff;
     box-shadow: 0  0 25px #00bbff;
 }
-
-
-
-/* @media(max-width: 1600px){
-    nav{
-        display: block;
-        position: relative;
-    }
-    #projects{
-        display: flex;
-    }
-    .project-card{
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .home{
-        gap: 4rem;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .home .home-content h1{
-        font-size: 5rem;
-    }
-
-    .home-img img{
-        width: 90%;
-    }
-
-    .projects-grid{
-        flex-direction: column;
-    }
-} */
 
 @media(min-width: 1601px){
     input, textarea{

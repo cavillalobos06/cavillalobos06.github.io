@@ -12,29 +12,11 @@ header{
     border-bottom: #00bbff 1px solid;
 }
 
-.logo{
-    font-size: 1.2rem;
-    color: #ededed;
-    font-weight: 800;
-}
+.logo{font-size: 1.2rem;color: #ededed;font-weight: 800;}
 
-.links{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1.5rem;
-}
+.links{display: flex;flex-direction: column;justify-content: center;gap: 1.5rem;}
 
 
-.links a{
-    font-size: 1.5rem;
-    color: white;
-    font-weight: 500;
-    transition: 0.3s ease;
-    border-bottom: 3px solid transparent;
-}
+.links a{font-size: 1.5rem;color: white;font-weight: 500;transition: 0.3s ease;border-bottom: 3px solid transparent;}
 
-nav a:hover{
-    color: #00bbff;
-    border-bottom: 3px solid #00bbff;
-}
+nav a:hover{color: #00bbff;border-bottom: 3px solid #00bbff;}

@@ -10,21 +10,13 @@
         background-color: black;
         z-index: 100;
     }
-    .form{
-        width: 50%;
-    }
+    .form{width: 50%;}
 
-    body{
-        background-color: rgb(0, 0, 0);
-    }
+    body{background-color: rgb(0, 0, 0);}
 
-    input, textarea{
-        width: 100%;
-    }
+    input, textarea{width: 100%;}
 
-    button{
-        width: 100%;
-    }
+    button{width: 100%;}
 }
 
 @media (min-width: 768px){
@@ -34,77 +26,77 @@
         width: 100%;
         height: 10%;
         flex-direction: row;
-        justify-content: space-between;
-        background-color: black;
+        justify-content: space-around;
+        background-color: transparent;
         z-index: 100;
     }
-    .form{
-        width: 50%;
-    }
 
-    body{
-        background-color: rgb(0, 119, 255);
-    }
+    .logo{font-size: 1.5rem;}
 
-    input, textarea{
-        width: 100%;
-    }
+    .links{display: flex;flex-direction: row;}
 
-    button{
-        width: 100%;
-    }
+    .links a{font-size: 2.1rem;}
+
+    .home-img{margin-top: 13rem;}
+
+    .content-title{font-size: 3rem;}
+
+    .home-content p{font-size: 2.5rem;}
+
+    .title{font-size: 3rem;}
+
+    .project-card{width: 100%;height: 350%;font-size: 2.5rem;}
+
+    .form{width: 50%;}
+
+    input, textarea{height: 4rem;font-size: 2.5rem;font-family: 'Ubuntu', sans-serif;font-weight: 700;}
+
+    button{width: 100%;font-size: 2.5rem;height: 200%;}
 }
 
 @media (min-width: 992px){
-    .form{
-        width: 50%;
-    }
 
-    body{
-        background-color: rgb(18, 235, 11);
-    }
+    .links a{font-size: 2.8rem;color: white;font-weight: 500;transition: 0.3s ease;border-bottom: 3px solid transparent;}
 
-    input, textarea{
-        width: 100%;
-    }
+    .form{width: 50%;}
 
-    button{
-        width: 100%;
-    }
+    input, textarea{width: 100%;}
+
+    button{width: 100%;}
 }
 
 @media (min-width: 1200px){
-    .form{
-        width: 50%;
-    }
 
-    body{
-        background-color: rgb(190, 23, 140);
-    }
+    .logo{font-size: 2rem;}
 
-    input, textarea{
-        width: 100%;
-    }
+    .form{width: 50%;}
 
-    button{
-        width: 100%;
-    }
+    input, textarea{width: 100%;}
+
+    button{width: 100%;}
 }
 
 @media (min-width: 1400px){
-    .form{
-        width: 50%;
-    }
 
-    body{
-        background-color: rgb(255, 230, 0);
-    }
+    header{justify-content: space-between;padding: 0 4%;}
 
-    input, textarea{
-        width: 100%;
-    }
+    .logo h1{font-size: 3.5rem;}
 
-    button{
-        width: 100%;
-    }
+    .links a{font-size: 2rem;}
+
+    #home{display: flex;flex-direction: row}
+
+    .home-content p{font-size: 3rem;}
+
+    .project-card{font-size: 3rem;}
+
+    .links{gap: 6rem;}
+
+    #projects{height: auto;padding-bottom: 15%;}
+
+    .form{width: 50%;}
+
+    input, textarea{width: 100%;}
+
+    button{width: 100%;}
 }
