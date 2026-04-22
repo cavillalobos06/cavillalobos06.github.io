@@ -1,2 +1,2 @@
-const title = document.getElementsByClassName('title');
-console.log(title)
+// const title = document.getElementsByClassName('title');
+// console.log(title)
