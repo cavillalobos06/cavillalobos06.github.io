@@ -77,14 +77,13 @@
 }
 
 @media (min-width: 1400px){
-
-    header{justify-content: space-between;padding: 0 4%;}
+    header{justify-content: space-between; padding: 0 4%; position:fixed;}
 
     .logo h1{font-size: 3.5rem;}
 
     .links a{font-size: 2rem;}
 
-    #home{display: flex;flex-direction: row}
+    #home{display: flex; flex-direction: row; height: 100%; padding: 19rem 9% 19rem; border: 0;}
 
     .home-content p{font-size: 3rem;}
 
@@ -92,11 +91,39 @@
 
     .links{gap: 6rem;}
 
-    #projects{height: auto;padding-bottom: 15%;}
+    .home-img{
+        height: auto;
+        width: 125%;
+        margin: 0;
 
-    .form{width: 50%;}
+    }
+
+    .content-title h1{
+        font-size: 7rem;
+    }
+
+    .home-content p{
+        font-size: 2rem;
+    }
+
+    #projects{height: auto; padding-top: 20%; align-items: center;}
+
+    .projects-flex{
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    .project-card{
+        width: 30%;
+        font-size: 1rem;
+    }
 
     input, textarea{width: 100%;}
 
     button{width: 100%;}
+
+    .title{
+        font-size: 2rem;
+    }
 }

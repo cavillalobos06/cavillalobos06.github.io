@@ -1,58 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/public/img/pets.webp" type="image/x-icon">
+    <title>PetCare</title>
     <link rel="stylesheet" href="/src/css/pets.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-
-    <title>Pets</title>
 </head>
 <body>
-    <header class="main">
+
+    <header>
         <div class="logo">
-            <img src="/public/img/pets.webp" alt="Logo">
+        <h1>🐾 PetCare</h1>
         </div>
-    </header>
-    <section class="inicio">
-        <h2>Mascotas</h2>
-        <p>Lista de mascotas disponibles para adopción.</p>
-    </section>
-    <section class="images">
-        <div class="pet">
-            <a href="/public/img/perro.webp" target="_blank"><img src="/public/img/perro.webp" alt="imagen-perro"></a>
-            <p>Perro</p>
-            <article><p>Este es un perro adorable que necesita un hogar.</p></article>
-        </div>
-        <div class="pet">
-            <a href="/public/img/gato.webp" target="_blank"><img src="/public/img/gato.webp" alt="imagen-gato"></a>
-            <p>Gato</p>
-            <article><p>Este es un gato cariñoso que necesita un hogar.</p></article>
-        </div>
-        <div class="pet">
-            <a href="/public/img/como-ensenar-hablar-loro.webp" target="_blank"><img src="/public/img/como-ensenar-hablar-loro.webp" alt="imagen-loro"></a>
-            <p>Loro</p>
-            <article><p>Este es un loro inteligente que necesita un hogar.</p></article>
-        </div>
-        <div class="pet">
-            <a href="/public/img/pexels-sharon-snider-4520484-1.webp" target="_blank"><img src="/public/img/pexels-sharon-snider-4520484-1.webp" alt="imagen-hamster"></a>
-            <p>Hamster</p>
-            <article><p>Este es un hamster juguetón que necesita un hogar.</p></article>
-        </div>
-        <div class="pet">
-            <a href="/public/img/conejo.webp" target="_blank"><img src="/public/img/conejo.webp" alt="imagen-conejo"></a>
-            <p>Conejo</p>
-            <article><p>Este es un conejo dulce que necesita un hogar.</p></article>
-        </div>
-        <div class="pet">
-            <a href="/public/img/goldfish.webp" target="_blank"><img src="/public/img/goldfish.webp" alt="imagen-goldfish"></a>
-            <p>Goldfish</p>
-            <article><p>Este es un goldfish que necesita un hogar.</p></article>
+        <div class="back">
+            <a href="/index.html">Volver al portafolio</a>
         </div>
 
+    </header>
+
+    <section class="hero">
+        <h2>Cuida a tu mejor amigo</h2>
+        <p>Encuentra todo para tu mascota en un solo lugar</p>
     </section>
+
+    <section class="pets">
+        <h2>Nuestras Mascotas</h2>
+        <div class="cards">
+
+            <div class="card">
+                <div class="img">
+                    <img src="/public/img/perro.webp" alt="Perro">
+                </div>
+                <div class="info">
+                    <h3>Perros</h3>
+                    <article><p>Animal leal y sociable, conocido como el mejor amigo del ser humano. Requiere atención, ejercicio y cariño, y puede aprender órdenes y trucos fácilmente.</p></article>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img">
+                    <img src="/public/img/gato.webp" alt="Gato">
+                </div>
+                <div class="info">
+                    <h3>Gatos</h3>
+                    <article><p>Mascota independiente y limpia. Suele ser tranquila, aunque también juguetona. Se adapta bien a espacios pequeños y no necesita tantos cuidados como un perro.</p></article>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img">
+                    <img src="/public/img/loro-rojo-y-verde.webp" alt="Ave">
+                </div>
+                <div class="info">
+                    <h3>Aves</h3>
+                    <article><p>Ave inteligente y colorida, famosa por su capacidad de imitar sonidos y palabras. Necesita estimulación mental y social constante.</p></article>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img">
+                    <img src="/public/img/goldfish.webp" alt="Pez">
+                </div>
+                <div class="info">
+                    <h3>Peces</h3>
+                    <article><p>Mascota acuática fácil de cuidar en comparación con otras. Es tranquila y requiere un acuario limpio y bien mantenido.</p></article>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img">
+                    <img src="/public/img/pexels-sharon-snider-4520484-1.webp" alt="Hamster">
+                </div>
+                <div class="info">
+                    <h3>Hamsters</h3>
+                    <article><p>Pequeño roedor activo, ideal para espacios reducidos. Es fácil de cuidar, aunque necesita una jaula adecuada y ejercicio diario.</p></article>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img">
+                    <img src="/public/img/conejo.webp" alt="Conejo">
+                </div>
+                <div class="info">
+                    <h3>Conejos</h3>
+                    <article><p>Animal suave y sociable que puede ser muy cariñoso. Requiere espacio para moverse, una dieta equilibrada y cuidados de higiene.
+
+</p></article>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 PetCare - Todos los derechos reservados</p>
+    </footer>
+
 </body>
 </html>
