@@ -56,7 +56,13 @@
 
 @media (min-width: 992px){
 
-    .links a{font-size: 2.8rem;color: white;font-weight: 500;transition: 0.3s ease;border-bottom: 3px solid transparent;}
+    .links a{
+        font-size: 2.8rem;
+        color: white;
+        font-weight: 500;
+        transition: 0.3s ease;
+        border-bottom: 3px solid transparent;
+    }
 
     .form{width: 50%;}
 
@@ -67,8 +73,44 @@
 
 @media (min-width: 1200px){
 
-    .logo{font-size: 2rem;}
+    .logo{font-size: 1.5rem;}
 
+    .links{
+        gap: 5rem;
+    }
+
+    .links a{
+        font-size: 1.8rem;
+        color: white;
+        font-weight: 500;
+        transition: 0.3s ease;
+        border-bottom: 3px solid transparent;
+    }
+
+    #home{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        padding: 19rem 6% 19rem;
+        border: 0;
+    }
+
+    .home-img{
+        height: auto;
+        width: 50%;
+        margin: 0;
+    }
+    .home-content h1{
+        font-size: 3rem;
+    }
+
+    .home-content p{
+        font-size: 1.3rem;
+    }
+    .home-content button{
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
+    }
     .form{width: 50%;}
 
     input, textarea{width: 100%;}

@@ -1,9 +1,0 @@
-#projects{display: flex;flex-direction: column;gap: 5rem;padding: 5rem 6%;border-bottom: 3px solid #00bbff;}
-
-.project-card{background-color: transparent;backdrop-filter: blur(10px);padding: 1rem;margin-top: 2%;border-radius: 10px;box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);width: 100%;font-size: 1.2rem;}
-
-.projects-flex{display: flex;flex-direction: column;gap: 2rem;justify-content: space-around;height: 20%;flex-wrap: wrap;}
-
-.projects-flex a{display: inline-block;margin-top: 1rem;padding: 0.5rem 1rem;background-color: #00bbff;color: white;border-radius: 5px;transition: 0.3s ease;}
-
-.title{margin-bottom: 5rem;font-size: 1.5rem;text-align: center;}
