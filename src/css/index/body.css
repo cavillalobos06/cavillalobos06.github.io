@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
+/* Global reset */
 *{margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,8 +9,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* Base font size and smooth scrolling */
 html{font-size: 62.5%;scroll-behavior: smooth;}
 
+/* Main body */
 body{
     width: 100%;
     height: 100vh;
@@ -19,18 +22,20 @@ body{
     font-weight: 700;
 }
 
+/* Section padding */
 #sect{padding-top: 3rem;}
 
- #cambio, #verMas{
+/* Dynamic text buttons */
+#cambio, #verMas{
     width: 20%;
     height: 2rem;
     border-radius: 20px;
     font-size: 0.7rem;
     text-align: center;
     transition: 0.3s ease;
-} 
+}
 
-
+/* Contact form */
 .form{
     display: flex;
     flex-direction: column;
@@ -42,6 +47,7 @@ body{
     margin: 2rem auto;
 }
 
+/* Form inputs */
 input, textarea{align-self: center;
     width: 50%;
     height: 3rem;
@@ -51,6 +57,7 @@ input, textarea{align-self: center;
     text-align: left;
 }
 
+/* Submit button */
 button{
     margin: 2% 0 2% 0;
     display: flex;
@@ -67,6 +74,7 @@ button{
     transition: 0.3s ease;
 }
 
+/* Projects section */
 #projects{
     display: flex;
     flex-direction: column;
@@ -75,6 +83,7 @@ button{
     border-bottom: 3px solid #00bbff;
 }
 
+/* Project card with glassmorphism */
 .project-card{
     background-color: transparent;
     backdrop-filter: blur(10px);
@@ -86,6 +95,7 @@ button{
     font-size: 1.2rem;
 }
 
+/* Projects container */
 .projects-flex{
     display: flex;
     flex-direction: column;
@@ -95,6 +105,7 @@ button{
     flex-wrap: wrap;
 }
 
+/* Project links */
 .projects-flex a{
     display: inline-block;
     margin-top: 1rem;
@@ -105,4 +116,5 @@ button{
     transition: 0.3s ease;
 }
 
+/* Section title */
 .title{margin-bottom: 5rem;font-size: 1.5rem;text-align: center;}

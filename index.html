@@ -4,18 +4,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- External styles and icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-  <link rel="stylesheet" href="/src/css/index/header.css" />
-  <link rel="stylesheet" href="/src/css/index/body.css" />
-  <link rel="stylesheet" href="/src/css/index/projects.css" />
-  <link rel="stylesheet" href="/src/css/index/contact.css" />
-  <link rel="stylesheet" href="/src/css/index/styles.css" />
-  <link rel="stylesheet" href="/src/css/index/responsive.css" />
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="/src/css/styles.min.css">
+  <!-- Favicon -->
   <link rel="shortcut icon" href="/public/icon/portafolio.webp" type="image/x-icon" />
   <title>Portfolio Website</title>
 </head>
 
 <body>
+  <!-- Header with navigation -->
   <header>
     <div class="logo">
       <h1>Camilo <span>Villalobos</span></h1>
@@ -30,12 +29,14 @@
     </nav>
   </header>
   <main>
+    <!-- About section -->
     <section id="home">
       <div class="home-img">
-        <img src="/public/img/img.webp" alt="perfil" />
+        <img src="/public/img/imgperfil.png" alt="perfil" />
       </div>
       <div class="home-content">
         <h1>Hello, <span>Everyone!!</span></h1>
+        <!-- Main text -->
         <p id="aboutMe" style="display: block;">
           I'm Camilo Villalobos, I'm 19 years old, I'm from the city of
           Barranquilla and I've always liked technology and software
@@ -44,17 +45,22 @@
           me to reach a level of experience with which I can improve as a
           person and as a professional.
         </p>
+        <!-- Hidden text (toggle with JS) -->
         <p id="newText" style="display: none;">
           "What I like about development is that it's an area that challenges me to keep learning and improvemy logic."
         </p>
-        <button id="cambio">Change text</button>
-        <button id="verMas">Show more</button>
-
+        <!-- Buttons -->
+        <div class="btn">
+          <button id="cambio">Change text</button>
+          <button id="verMas">Show more</button>
+        </div>
+        <!-- Extra text -->
         <p id="more" style="display: none;">
           I am constantly improving my skills and learning new technologies.
         </p>
       </div>
     </section>
+    <!-- Projects section -->
     <section id="projects">
       <div class="title">
         <h1>My <span>Projects</span></h1>
@@ -91,6 +97,7 @@
         </div>
       </div>
     </section>
+    <!-- Contact section -->
     <section id="sect">
       <div class="title">
         <h1>Contact <span>Me</span></h1>
@@ -108,8 +115,7 @@
       </div>
     </section>
   </main>
+  <!-- Scripts -->
   <script src="/src/js/javascript.js"></script>
 </body>
-<script src="/src/js/script.js"></script>
-
 </html>

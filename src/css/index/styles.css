@@ -1,3 +1,4 @@
+/* Home section */
 #home{
     height: auto;
     width: 100%;
@@ -10,18 +11,23 @@
     border-bottom: 3px solid #00bbff;
 }
 
+/* Home content title */
 .home-content h1{
     font-size: 1.5rem;
 }
 
+/* Accent color */
 span{
     color: #00bbff;
 }
 
+/* Home content paragraph */
 .home-content p{
     font-size: 1.2rem;
     text-align: justify;
 }
+
+/* Profile image container */
 .home-img{
     display: flex;
     justify-content: center;
@@ -29,6 +35,7 @@ span{
     height: 220px;
 }
 
+/* Profile image with glow */
 .home-img img{
     max-width: 100%;
     height: auto;
@@ -38,6 +45,7 @@ span{
     transition: 0.2s linear;
 }
 
+/* Social icons hover effect */
 .social-icons a:hover{
     color: black;
     transform: scale(1.3) translateY(-5px);
@@ -45,6 +53,7 @@ span{
     box-shadow: 0  0 25px #00bbff;
 }
 
+/* Extra large screens */
 @media(min-width: 1601px){
     input, textarea{
         min-width: 25%;

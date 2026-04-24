@@ -1,3 +1,4 @@
+/* Header with blur effect */
 header{
     position: relative;
     width: 100%;
@@ -10,11 +11,13 @@ header{
     border-bottom: #00bbff 1px solid;
 }
 
+/* Logo */
 .logo{font-size: 1.2rem;color: #ededed;font-weight: 800;}
 
+/* Navigation links container */
 .links{display: flex;flex-direction: column;justify-content: center;gap: 1.5rem;}
 
-
+/* Navigation link styling */
 .links a{
     font-size: 1.5rem;
     color: white;
@@ -23,4 +26,5 @@ header{
     border-bottom: 3px solid transparent;
 }
 
+/* Hover effect for navigation links */
 nav a:hover{color: #00bbff;border-bottom: 3px solid #00bbff;}

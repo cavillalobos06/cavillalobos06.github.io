@@ -1,43 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
-*{
+/* Reset and base styles */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: Arial, sans-serif;
 }
 
+/* General body */
 body {
     background: #f5f5f5;
 }
 
+/* Header navigation */
 header {
-    background: linear-gradient(90deg, #49bad9, #06e8cd);
+    background: #ff914d;
     color: white;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
     display: flex;
     justify-content: space-between;
-    padding: 15px;
-    height: 150px;
-    align-items: center;
-    font-size: 2rem;
+    padding: 15px 30px;
 }
 
-header a{
+/* Header links */
+header a {
+    color: white;
+    margin-left: 15px;
     text-decoration: none;
-    font-size: 2.5rem;
-    color: #ededed;
 }
 
+/* Hero section with background image */
 .hero {
-    background: url('/public/img/Portada-hogar.webp') center/cover no-repeat;
-    background-size: auto 100%;
+    background: url("https://images.unsplash.com/photo-1517849845537-4d257902454a")
+    center/cover;
     color: white;
     text-align: center;
     padding: 80px 20px;
-    height: 400px;
 }
 
+/* Hero button */
 .hero button {
     margin-top: 10px;
     padding: 10px 20px;
@@ -47,110 +46,57 @@ header a{
     cursor: pointer;
 }
 
+/* Pets section */
 .pets {
     padding: 40px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
-
-.pets h2 {
-    margin-bottom: 20px;
-    font-size: 4rem;
-    background: linear-gradient(to right, #49bad9, #330867);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
+/* Pet cards container */
 .cards {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    gap: 70px;
+    gap: 20px;
     margin-top: 20px;
 }
 
+/* Individual pet card */
 .card {
-    font-size: 1.8rem;
-    display: flex;
-    padding-top: 25px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+    background: white;
+    padding: 20px;
     border-radius: 10px;
-    width: 600px;
-    height: 600px;
+    width: 20%;
+    box-shadow: 0 0 5px gray;
 }
 
-.img{
-    background-color: #ededed;
-    border-radius: 15px;
-    box-shadow: 10px 10px 10px #49bad9;
-    width: 90%;
-    height: 80%;
-    padding-top: 50px;
-    padding-bottom: 20px;
+/* Card image styling */
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
-.img img{
-    border-radius: 50%;
-    box-shadow: 10px 10px 10px;
-    width: 300px;
-    height: 300px;
-}
-
-.info{
-    display: flex;
-    flex-direction: column;
-    font-size: 2rem;
-    background: linear-gradient(to right, #49bad9, #330867);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: justify;
-}
-.info h3{
-    align-self: center;
-}
-
-footer{
+/* Footer */
+footer {
     background: black;
     color: white;
     text-align: center;
     padding: 15px;
-    margin-top: 20px;
-    height: 100px;
-    font-size: 2rem;
+    margin-top: 8rem;
+    height: 5rem;
+    font-size: 1.8rem;
 }
 
-@media(min-width: 768px){
-    .logo{
-        font-size: 1.5rem;
-    }
-    header a{
-        font-size: 2rem;
-    }
-    .hero{
-        background-size: 100% 100%;
-    }
+/* Responsive design - tablets and below */
+@media (max-width: 1300px) {
+    .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
 
-    .pets h2{
-        font-size: 2.5rem;
-    }
-
-    .cards{
-        align-items: center;
-    }
-
-    .card{
-        width: 50%;
-        height: auto;
-        align-items: center;
-    }
-
-    .info{
-        font-size: 1.5rem;
-    }
+    .card {
+    width: 100%;
+}
 }
