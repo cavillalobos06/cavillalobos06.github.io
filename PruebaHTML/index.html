@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rolling Stones</title>
+    <link rel="shortcut icon" href="/assets/icons/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/style.min.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="head">
+        <div class="header__content">
+            <img src="https://1000marcas.net/wp-content/uploads/2020/03/Rolling-Stone-Logo.png" alt="stones">
+
+            <!-- Nav for desktop / hamburger for mobile -->
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#media">Media</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                </div>
+                <button class="menu-toggle"><svg xmlns="http://www.w3.org/2000/svg" width="200" height="50" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                </svg></button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero__overlay">
+                <h2>Rock the Night</h2>
+                <p>Dangerous Tour Colombia</p>
+                <a href="#events" class="btn">View Events</a>
+            </div>
+        </section>
+
+        <!-- EVENTS -->
+        <section id="events" class="events-container">
+            <h2>Upcoming Events</h2>
+
+            <!-- Extra points: table -->
+            <table class="events__table">
+                <thead style="background-color: brown;">
+                    <tr>
+                        <th>Date</th>
+                        <th>City</th>
+                        <th>Venue</th>
+                        <th>Tickets</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="background-color: hsl(240, 15%, 25%);">
+                        <td>15 May</td>
+                        <td>Bogotá</td>
+                        <td>Sala Sol</td>
+                        <td><button class="shop">BUY</button></td>
+                    </tr>
+                    <tr style="background-color: hsl(240, 15%, 15%);">
+                        <td>18 May</td>
+                        <td>Medellín</td>
+                        <td>Razzmatazz</td>
+                        <td><button class="shop">BUY</button></td>
+                    </tr>
+                    <tr>
+                        <td>22 May</td>
+                        <td>Cali</td>
+                        <td>Moon Club</td>
+                        <td><button class="shop">BUY</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="about-container">
+            <h2>About the Band</h2>
+
+            <div class="about__content">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/The_Rolling_Stones_Summerfest_in_Milwaukee_-_2015.jpg" alt="Band photo">
+                <div class="about">
+                <article>
+                    <p>
+                        The Rolling Stones is a British rock band formed in London in 1962. The band consists of Mick Jagger, Keith Richards, Charlie Watts, and Brian Jones (who left the band in 1969). They are known for their powerful live performances and raw sound.
+                    </p>
+
+                    <!-- Required list -->
+                    <h3>Our Influences</h3>
+                    <ul>
+                        <li>Classic Rock</li>
+                        <li>Hard Rock</li>
+                        <li>Alternative</li>
+                    </ul>
+                </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- MEDIA -->
+        <section id="media" class="media-container">
+            <h2>Multimedia</h2>
+            <div class="multimedia">
+                <div class="media__grid">
+                <img src="https://www.radioacktiva.com/wp-content/uploads/2025/09/Rolling-Stones.png" alt="">
+                <img src="https://media.cnn.com/api/v1/images/stellar/prod/cnne-225699-rolling-stones-guitarist-keith-richards.jpg?c=16x9&q=h_833,w_1480,c_fill" alt="">
+                <img src="https://gritaradio.com/wp-content/uploads/2023/10/Keith-Richards-dice-que-los-Rolling-Stones-estan-planeando-una-gira-en-2024.jpg" alt="">
+                    <img src="https://i0.wp.com/es.hollywoodreporter.com/wp-content/uploads/2026/04/El-nuevo-album-de-los-Rolling-Stones-llegara-este-verano.jpg?fit=1280%2C770&ssl=1" alt="">
+                    <img src="https://media.timeout.com/images/106233693/750/422/image.jpg" alt="">
+                    <img src="https://los40.com/resizer/v2/OPEXGP2WJRMKNJEJCM2CKIMNAI.jpg?auth=d3688b98f2dc4173551a5f797e55546f72e555c78f4b2adb30dfb51e8c8775fc&quality=70&width=1200&height=544&smart=true" alt="">
+                </div>
+                <div class="media__video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/cKaJrmxMJf4?si=ktYIeLwNaF_APK_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="contact" class="footer">
+        <div class="container footer__content">
+            <p>© <span id="year"></span> Shattered Riffs</p>
+
+            <!-- Another possible list -->
+            <ul class="social">
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Spotify</a></li>
+                <li><a href="#">YouTube</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
